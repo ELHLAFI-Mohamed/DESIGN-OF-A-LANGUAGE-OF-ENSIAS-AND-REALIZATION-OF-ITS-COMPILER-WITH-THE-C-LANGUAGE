@@ -1,0 +1,42 @@
+start_prog
+	declar_var(int a<-1 ,b<-2;
+               float c,d;
+ 			   bit e<-0, f<-1;);
+
+	start int Function moyenne(int a, int b )
+
+		c <- a+b/2;
+		return c;
+		end Function moyenne
+
+	start void Main_function()
+
+		d <- moyenne(max(a,b),min(a,b));
+		d <- max(a,b);
+		if d>=2 then
+			print_out(d);
+			elsif d<2
+			then
+			print_out("hi"d/2,z"hi",a);
+		end if
+
+		while c<10 then
+		end while
+
+		for ( a<-3; a < 40; a<-a+1)
+		 			print_out("hi"d/2,z"hi",a);
+		end for
+
+		switch (a)
+		  case 1 : print_out("chhh");break;
+		  case 2 : put_in(e,c);print_out("chhh");break;
+		end switch
+
+		g<- and(e,f);
+		print_out(g);
+		print_out("fin main function");
+
+	end Main_function
+
+
+end_prog
